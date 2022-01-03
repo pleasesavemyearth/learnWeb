@@ -1,0 +1,61 @@
+.outer {
+    position : relative;
+    width: 960px;
+    height: 800px;
+}
+
+.inner {
+    position : absolute;
+    border : 1px solid black;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    top: 10px;
+    left: 10px;
+    background-color: red;
+}
+
+.green{
+    top: 10px;
+    left: 700px;
+    background-color: green;
+}
+
+.yellow{
+    top: 500px;
+    left: 10px;
+    background-color: yellow;
+}
+
+.blue{
+    top: 500px;
+    left: 700px;
+    background-color: blue;
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color:burlywood
+}
+.left{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 50px;
+    height: 800px;
+    background-color:rgb(222, 135, 186)
+}
+
+.ellipsis {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
